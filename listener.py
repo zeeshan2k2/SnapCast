@@ -1,4 +1,5 @@
 import socket
+import os
 
 UDP_PORT = 5000
 
@@ -15,9 +16,12 @@ def download_file(ip, port, filename):
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client.connect((ip, port))
 
-    save_name = f"received_{filename}"
+    # Desktop path (works on any Mac user account)
+    desktop = os.path.join(os.path.expanduser("~"), "Desktop")
 
-    with open(save_name, "wb") as f:
+    save_path = os.path.join(desktop, f"received_{filename}")
+
+    with open(save_path, "wb") as f:
 
         while True:
             data = client.recv(4096)
@@ -28,7 +32,7 @@ def download_file(ip, port, filename):
 
     client.close()
 
-    print(f"[Downloader] File saved as {save_name}")
+    print(f"[Downloader] File saved to Desktop: {save_path}")
 
 
 while True:
