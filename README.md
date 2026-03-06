@@ -42,20 +42,6 @@ Receiver (Mac B):
 
 ---
 
-## Project Structure
-
-```
-SnapCast/
-├── main.py          # Sender application
-├── listener.py      # Receiver application
-├── broadcaster.py   # UDP broadcast module
-├── file_server.py   # TCP file transfer server
-├── screenshot.py    # Screenshot capture logic
-└── requirements.txt
-```
-
----
-
 ## Installation
 
 Clone the repository:
