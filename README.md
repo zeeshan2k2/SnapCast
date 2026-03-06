@@ -6,6 +6,12 @@ SnapCast is a prototype that explores gesture-driven device interaction inspired
 
 ---
 
+## Demo
+
+https://github.com/user-attachments/assets/b10007a6-1743-4239-88b4-2a06173b8855
+
+---
+
 ## Overview
 
 SnapCast enables gesture-triggered screenshot sharing without relying on cloud services. Using computer vision for gesture detection and a lightweight peer-to-peer networking architecture, the system allows one device to capture and broadcast a screenshot while another device retrieves it using a corresponding gesture.
