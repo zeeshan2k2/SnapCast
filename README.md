@@ -8,7 +8,9 @@ SnapCast is a prototype that explores gesture-driven device interaction inspired
 
 ## Demo
 
-https://github.com/user-attachments/assets/b10007a6-1743-4239-88b4-2a06173b8855
+
+https://github.com/user-attachments/assets/2e30fcbc-63f4-4dbf-a5ab-3322e07c8b25
+
 
 ---
 
